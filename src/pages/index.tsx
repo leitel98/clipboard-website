@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from "next/head"
 
 export default function Home(): JSX.Element {
   return (
@@ -46,8 +46,8 @@ export default function Home(): JSX.Element {
           <div className="section-container my-20">
             <div className="relative flex flex-col md:flex-row md:space-x-32">
               {/* image */}
-              <div className='md:w-1/2'>
-                <img src="image-computer.png" className='md:absolute top-0 right-[50%]' alt="" />
+              <div className="md:w-1/2">
+                <img src="image-computer.png" className="md:absolute top-0 right-[50%]" alt="" />
               </div>
               {/* items container */}
               <div className="flex flex-col mt-16 mb-24 space-y-12 text-xl md:w-1/2 md:mb-60 md:text-left md:pl-16">
@@ -88,7 +88,7 @@ export default function Home(): JSX.Element {
           <div className="section-container my-20">
             <h3>Access Clipboard Anywhere</h3>
             
-            <p className="section-content text-xl mb-24">Wether you're on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+            <p className="section-content text-xl mb-24">Wether you`re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
 
             <img src="image-devices.png" alt="" className="mx-auto" />
           </div>
@@ -99,7 +99,7 @@ export default function Home(): JSX.Element {
           <div className="section-container text-xl my-20">
             <h3>Supercharge your workflow</h3>
             <p className="section-content mb-16">
-              we've got tools to boost your productivity.
+              we`ve got tools to boost your productivity.
             </p>
             {/* items container */}
             <div className="flex flex-col items-center justify-between space-y-16 md:flex-row md:space-y-0 md:space-x-12">
@@ -147,7 +147,7 @@ export default function Home(): JSX.Element {
           <div className="section-container my-20">
             <h3>Clipboard for iOS and MacOS</h3>
             <p className="section-content text-xl mb-10">
-              Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you're ready to start adding to your clipboard.
+              Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you`re ready to start adding to your clipboard.
             </p>
 
             {/* button container */}
@@ -163,7 +163,7 @@ export default function Home(): JSX.Element {
         </section>
 
         {/* footer */}
-        <footer className='bg-gray-100'>
+        <footer className="bg-gray-100">
           <div className="section-container">
             <div className="flex flex-col items-center justify-between md:flex-row">
               <img src="logo.svg" alt="" className="scale-50" />
